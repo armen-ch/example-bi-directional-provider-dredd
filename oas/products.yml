@@ -21,7 +21,7 @@ paths:
                 value:
                   id: "1234"
                   type: "food"
-                  #price: 42
+                  price: 42
       responses:
         "200":
           description: successful operation
@@ -35,7 +35,7 @@ paths:
                   value:
                     id: "1234"
                     type: "food"
-                    #price: 42
+                    price: 42
     get:
       summary: List all products
       description: Returns all products
@@ -54,7 +54,7 @@ paths:
                   value:
                     - id: "1234"
                       type: "food"
-                      #price: 42
+                      price: 42
                       # name: "pizza"
                       # version: "1.0.0"
                       # see https://github.com/apiaryio/dredd/issues/1430 for why
@@ -86,7 +86,7 @@ paths:
                   value:
                     id: "1234"
                     type: "food"
-                    #price: 42
+                    price: 42
                     # name: "pizza"
                     # version: "1.0.0"
                     # see https://github.com/apiaryio/dredd/issues/1430 for why
@@ -114,6 +114,5 @@ components:
           type: string
         version:
           type: string
-          price:
-          type: number
-
+          #        price:
+          #        type: number
