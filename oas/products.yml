@@ -114,5 +114,5 @@ components:
           type: string
         version:
           type: string
-          #        price:
-          #        type: number
+        price:
+          type: number
